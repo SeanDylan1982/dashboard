@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e2883747-7b9b-4fbe-afd7-4bfb19c7786a/deploy-status)](https://app.netlify.com/sites/dashboard-basic-react/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0af14b8c-f4c4-4c0f-a3ca-400f759bbd17/deploy-status)](https://app.netlify.com/sites/dashboard-react-basic/deploys)
 
 https://dashboard-react-basic.netlify.app/
 

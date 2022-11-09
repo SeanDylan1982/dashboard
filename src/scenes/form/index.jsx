@@ -13,7 +13,7 @@ const initialValues = {
   contact: "",
   address1: "",
   address2: "",
-  address3: ""
+  address3: "",
 };
 
 const phoneRegExp = /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
@@ -142,9 +142,9 @@ const Form = () => {
               label="Zip Code"
               onBlur={handleBlur}
               onChange={handleChange}
-              value={values.address2}
+              value={values.address3}
               name="address3"
-              error={!!touched.address3 && !!errors.address}
+              error={!!touched.address3 && !!errors.address3}
               helperText={touched.address3 && errors.address3}
               sx={{ gridColumn: "span 1" }}
             />
